@@ -25,4 +25,6 @@ bool CekFibonacci() {
 }
 
 void inputangka() {
+    cout << "Masukkan angka: ";
+    cin >> angka;
 }
