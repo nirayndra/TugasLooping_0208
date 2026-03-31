@@ -13,3 +13,6 @@ bool CekPrima() {
     }
     return true;
 }
+
+bool CekFibonacci() {
+}
