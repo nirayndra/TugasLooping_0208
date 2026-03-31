@@ -15,4 +15,5 @@ bool CekPrima() {
 }
 
 bool CekFibonacci() {
+    int a = 0, b = 1;
 }
