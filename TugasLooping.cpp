@@ -7,4 +7,9 @@ int pilihan;
 bool CekPrima() {
     if (angka < 2) return false;
     int i = 2;
+    while (i * i <= angka) {
+        if (angka % i == 0) return false;
+        i++;
+    }
+    return true;
 }
