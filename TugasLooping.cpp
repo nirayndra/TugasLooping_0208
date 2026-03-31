@@ -56,6 +56,19 @@ int main() {
     while (true) {
         tampilMenu();
         switch (pilihan) {
+            case 1:
+                inputangka();
+                TampilHasilPrima();
+                break;
+            case 2:
+                inputangka();
+                TampilHasilPrima();
+                break;
+            case 0:
+                cout << "Program selesai." << endl;
+                return 0;
+            default:
+                cout << "Pilihan tidak valid, silakan coba lagi." << endl;
         }
     }
     return 0;
