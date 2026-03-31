@@ -28,3 +28,10 @@ void inputangka() {
     cout << "Masukkan angka: ";
     cin >> angka;
 }
+
+void TampilHasilPrima() {
+    if (CekPrima())
+        cout << angka << " merupakan bilangan prima." << endl;
+    else
+        cout << angka << " bukan bilangan prima." << endl;
+}
