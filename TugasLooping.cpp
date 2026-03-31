@@ -35,3 +35,10 @@ void TampilHasilPrima() {
     else
         cout << angka << " bukan bilangan prima." << endl;
 }
+
+void TampilHasilFibonacci() {
+    if (CekFibonacci())
+        cout << angka << " merupakan bilangan fibonacci." << endl;
+    else
+        cout << angka << " bukan bilangan fibonacci." << endl;
+}
