@@ -23,3 +23,6 @@ bool CekFibonacci() {
     }
     return (b == angka || angka == 0);
 }
+
+void inputangka() {
+}
